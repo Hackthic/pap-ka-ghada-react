@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="p-5">
-      <h1 className="text-3xl mb-4">Progress visual tool</h1>
+      <h1 className="text-3xl mb-4">Progress visual tool for student</h1>
       <ProgressBar progress={progress} />
       <ToDo tasks={tasks} setTasks={setTasks} onComplete={handleComplete} onFail={handleFail} />
     </div>
